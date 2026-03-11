@@ -3,7 +3,7 @@ from faker import Faker
 from sqlalchemy import create_engine
 import random
 fake = Faker('pt_BR')
-engine = create_engine('postgresql+psycopg2://postgres:4268@localhost:5432/postgres')
+engine = create_engine('postgresql+psycopg2://postgres:XXXX@localhost:5432/postgres')
 tipos = ['Combo', 'Pacote', 'Programa', 'Especial']
 temas = ['Verão', 'Noiva', 'Detox', 'Glow Facial', 'Renovação']
 procedimentos = [
