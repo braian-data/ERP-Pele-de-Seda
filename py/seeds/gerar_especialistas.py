@@ -30,7 +30,7 @@ for _ in range(10):
     lista_especialistas.append(especialista)
 
 df_especialistas = pd.DataFrame(lista_especialistas)
-print("✅ Tabela pronta no Python! Iniciando injeção no PostgreSQL...")
+print(" Tabela pronta no Python! Iniciando injeção no PostgreSQL...")
 print(df_especialistas.head())
 
 # Tratamento de Erros
