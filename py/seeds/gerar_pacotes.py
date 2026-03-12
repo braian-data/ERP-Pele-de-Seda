@@ -13,7 +13,7 @@ procedimentos = [
 ]
 lista_pacotes = []
 
-print("⏳ Fabricando 10 pacotes na memória...")
+print(" Fabricando 10 pacotes na memória...")
 
 for i in range(5):
     nome_pacote = f"{random.choice(tipos)} {random.choice(temas)}"
