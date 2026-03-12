@@ -13,7 +13,7 @@ lista_especialidades = [
     'Cirurgião Plástico', 'Tricologista', 'Fisioterapeuta Dermatofuncional'
 ]
 
-print("⏳ Fabricando 10 especialistas na memória...")
+print(" Fabricando 10 especialistas na memória...")
 # controle de fluxo - if, elif e else também é um controle de fluxo
 for _ in range(10):
     # Tratamento de dados
