@@ -39,5 +39,5 @@ try:
     df_especialistas.to_sql(name='especialistas', con=engine, if_exists='append',
                             index=False)  # engine chamada aqui para enviar sql
 except Exception as erro:
-    print("❌ DEU RUIM NO BANCO DE DADOS. Veja o erro abaixo:")
+    print(" DEU RUIM NO BANCO DE DADOS. Veja o erro abaixo:")
     print(erro)
